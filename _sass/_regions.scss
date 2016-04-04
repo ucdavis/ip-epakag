@@ -14,3 +14,14 @@
         @include container;
     }
 }
+.homepage_buttons {
+    .columns {
+        background-color:$bg-color;
+        text-align:center;
+        vertical-align: bottom;
+    }
+    img {
+        // display:block;
+        // text-align:center;
+    }
+}

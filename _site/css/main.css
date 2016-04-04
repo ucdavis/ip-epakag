@@ -1010,6 +1010,11 @@ nav {
       .banner .banner_contents {
         width: 90%; } }
 
+.homepage_buttons .columns {
+  background-color: #f7f7f7;
+  text-align: center;
+  vertical-align: bottom; }
+
 /*
  * jQuery Nivo Slider v3.2
  * http://nivo.dev7studios.com
