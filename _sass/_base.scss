@@ -61,12 +61,13 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    padding-top:60px;
-    padding-bottom:60px;
-    height: 180px;
+    // padding-top:60px;
+    // padding-bottom:60px;
+    height: 280px;
     display:block;
     .footer_contents {
         @include container;
+        padding-bottom:10px;
         .foot_top {
             border-bottom: 1px solid $borders;
             padding-bottom: 4px;

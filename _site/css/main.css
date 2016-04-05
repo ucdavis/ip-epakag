@@ -289,14 +289,13 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  height: 180px;
+  height: 280px;
   display: block; }
   footer .footer_contents {
     width: 80%;
     margin: 0 auto;
-    min-width: 300px; }
+    min-width: 300px;
+    padding-bottom: 10px; }
     @media (max-width: 850px) {
       footer .footer_contents {
         width: 85%; } }
@@ -473,7 +472,7 @@ html {
 body {
   padding: 0px;
   margin: 0px;
-  margin-bottom: 180px;
+  margin-bottom: 280px;
   background-color: #f7f7f7; }
 
 img {
@@ -1011,9 +1010,17 @@ nav {
         width: 90%; } }
 
 .homepage_buttons .columns {
-  background-color: #f7f7f7;
   text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
   vertical-align: bottom; }
+  .homepage_buttons .columns .btn {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: 600; }
+.homepage_buttons img {
+  min-height: 70px;
+  margin-bottom: 10px; }
 
 /*
  * jQuery Nivo Slider v3.2
