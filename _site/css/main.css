@@ -738,6 +738,10 @@ table tbody tr {
   .btn:hover {
     opacity: .85;
     color: #fff; }
+  .btn.btn-big {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: 600; }
   .btn.btn-red {
     background-color: #ba0c2f; }
   .btn.btn-blue {
@@ -1024,10 +1028,6 @@ nav {
   margin-top: 30px;
   margin-bottom: 30px;
   vertical-align: bottom; }
-  .homepage_buttons .columns .btn {
-    font-size: 1.6rem;
-    text-transform: uppercase;
-    font-weight: 600; }
 .homepage_buttons img {
   min-height: 70px;
   margin-bottom: 10px; }

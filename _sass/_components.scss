@@ -1,17 +1,17 @@
 table {
     tbody {
         tr {
-            border-bottom:1px solid $borders;
+            border-bottom: 1px solid $borders;
             th {
                 font-size: 1.6rem;
                 color: $primary-font;
                 font-family: $sans-serif;
-                background-color:$bg-color;
-                padding:10px;
-                text-align:left;
+                background-color: $bg-color;
+                padding: 10px;
+                text-align: left;
             }
             td {
-                 padding:8px;
+                padding: 8px;
                 font-size: 1.6rem;
                 color: $primary-font;
                 font-family: $sans-serif;
@@ -84,6 +84,11 @@ table {
     &:hover {
         opacity: .85;
         color: #fff;
+    }
+    &.btn-big {
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        font-weight: 600;
     }
     &.btn-red {
         background-color: $unitrans-red;
