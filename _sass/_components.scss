@@ -1,7 +1,7 @@
 table {
+    border:1px solid $bg-color;
     tbody {
         tr {
-            border-bottom: 1px solid $borders;
             th {
                 font-size: 1.6rem;
                 color: $primary-font;
@@ -16,6 +16,18 @@ table {
                 color: $primary-font;
                 font-family: $sans-serif;
                 vertical-align: top;
+            }
+        }
+    }
+}
+table.bordered {
+    tbody {
+        tr {
+            td {
+                border-right:1px solid $bg-color;
+                &:last-child {
+                    border-right:none;
+                }
             }
         }
     }
@@ -132,19 +144,6 @@ table {
     background-color: $california-poppy !important;
 }
 
-// Video
-.video_wrapper {
-    width: 100%;
-    height: auto;
-    text-align: center;
-    color: #fff;
-    margin-bottom: 3%;
-    position: relative;
-    // overflow:hidden;
-    .video_words {
-        margin: 0 auto;
-        width: 100%;
-        max-width: 60rem;
-        margin-top: -100px;
-    }
+.center-align {
+    text-align:center;
 }

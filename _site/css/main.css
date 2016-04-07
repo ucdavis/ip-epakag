@@ -251,7 +251,7 @@ header {
   background-color: #fff;
   border: 1px solid #C8C7CC;
   border-radius: 2px;
-  padding: 1% 2%;
+  padding: 1.5% 3%;
   margin-top: 2%; }
   @media (max-width: 850px) {
     .main .main_contents {
@@ -677,8 +677,8 @@ input[type="button"].button-primary:focus {
   display: table;
   clear: both; }
 
-table tbody tr {
-  border-bottom: 1px solid #C8C7CC; }
+table {
+  border: 1px solid #f7f7f7; }
   table tbody tr th {
     font-size: 1.6rem;
     color: #333433;
@@ -692,6 +692,11 @@ table tbody tr {
     color: #333433;
     font-family: "proxima-nova", arial, sans-serif;
     vertical-align: top; }
+
+table.bordered tbody tr td {
+  border-right: 1px solid #f7f7f7; }
+  table.bordered tbody tr td:last-child {
+    border-right: none; }
 
 .section_divider {
   margin-bottom: 10%; }
@@ -772,18 +777,8 @@ table tbody tr {
 .bg-california-poppy {
   background-color: #ed8800 !important; }
 
-.video_wrapper {
-  width: 100%;
-  height: auto;
-  text-align: center;
-  color: #fff;
-  margin-bottom: 3%;
-  position: relative; }
-  .video_wrapper .video_words {
-    margin: 0 auto;
-    width: 100%;
-    max-width: 60rem;
-    margin-top: -100px; }
+.center-align {
+  text-align: center; }
 
 form .main {
   background-color: #f7f7f7;
