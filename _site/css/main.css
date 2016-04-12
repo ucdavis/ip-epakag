@@ -195,6 +195,12 @@ h3,
   .h3 {
     font-size: 2.4rem;
     font-weight: 600; }
+  h3.table_header,
+  .h3.table_header {
+    border-bottom: 1px solid #C8C7CC;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    margin-top: 20px; }
 
 h4,
 .h4 {
@@ -782,6 +788,9 @@ table.bordered tbody tr td {
 
 .center-align {
   text-align: center; }
+
+.left-align {
+  text-align: left; }
 
 form .main {
   background-color: #f7f7f7;
