@@ -43,8 +43,11 @@ a {
 //      }
 //  }
 // }
-li ul,ol {
+li ul, li ol {
     padding-left:20px !important;
+}
+table ul, table ol {
+    padding-left:25px;
 }
 ul,
 ol {

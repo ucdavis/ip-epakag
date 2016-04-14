@@ -44,8 +44,11 @@ a {
       a.archive p:hover {
         color: #DDB307; }
 
-li ul, ol {
+li ul, li ol {
   padding-left: 20px !important; }
+
+table ul, table ol {
+  padding-left: 25px; }
 
 ul,
 ol {
@@ -1517,3 +1520,10 @@ nav {
   border-bottom-color: #c7c8c0;
   border-width: 6px;
   margin-left: -6px; }
+
+#___gcse_0 {
+  content: "Hello" form #gsc-i-id1;
+    content-background: none !important; }
+
+.gsc-input-box {
+  height: 32px !important; }
