@@ -713,6 +713,9 @@ table.bordered tbody tr td {
 .section_divider {
   margin-bottom: 10%; }
 
+.mini-image img {
+  width: 150px; }
+
 .image-wrapper {
   width: auto;
   margin-top: 7px; }
