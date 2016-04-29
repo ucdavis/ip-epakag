@@ -7,13 +7,28 @@ header {
     .header_contents {
         @include container;
         .logo_wrapper {
-            width: 50%;
+            width: 60%;
             display: inline-block;
+            @include breakpoint(mobileonly) {
+                width: 100%;
+                text-align: center;
+                
+            }
         }
         .search_wrapper {
-            width: 49%;
+            width: 39%;
             text-align:right;
             display: inline-block;
+            @include breakpoint(mobileonly) {
+                width: 100%;
+                text-align: center;
+                margin-top:20px;
+                img {
+                    margin-bottom:20px;
+                    width:50%;
+                }
+                
+            }
         }
     }
 }
