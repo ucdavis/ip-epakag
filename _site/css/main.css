@@ -1,10 +1,4 @@
 @charset "UTF-8";
-@font-face {
-  font-family: 'klinic_light';
-  src: url("/media/fonts/klinic_light.woff") format("woff"), url("/media/fonts/klinic_light.ttf") format("truetype"); }
-@font-face {
-  font-family: 'klinic_medium';
-  src: url("/media/fonts/klinic_medium.woff") format("woff"), url("/media/fonts/klinic_medium.ttf") format("truetype"); }
 html {
   position: relative;
   height: 100%; }
@@ -241,7 +235,8 @@ header {
   header .header_contents {
     width: 80%;
     margin: 0 auto;
-    min-width: 300px; }
+    min-width: 300px;
+    max-width: 1400px; }
     @media (max-width: 850px) {
       header .header_contents {
         width: 85%; } }
@@ -260,6 +255,7 @@ header {
   width: 80%;
   margin: 0 auto;
   min-width: 300px;
+  max-width: 1400px;
   background-color: #fff;
   border: 1px solid #C8C7CC;
   border-radius: 2px;
@@ -307,6 +303,7 @@ footer {
     width: 80%;
     margin: 0 auto;
     min-width: 300px;
+    max-width: 1400px;
     padding-bottom: 10px; }
     @media (max-width: 850px) {
       footer .footer_contents {
@@ -835,7 +832,8 @@ label {
 nav {
   width: 80%;
   margin: 0 auto;
-  min-width: 300px; }
+  min-width: 300px;
+  max-width: 1400px; }
   @media (max-width: 850px) {
     nav {
       width: 85%; } }
@@ -1028,7 +1026,8 @@ nav {
   .banner .banner_contents {
     width: 80%;
     margin: 0 auto;
-    min-width: 300px; }
+    min-width: 300px;
+    max-width: 1400px; }
     @media (max-width: 850px) {
       .banner .banner_contents {
         width: 85%; } }
